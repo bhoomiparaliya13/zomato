@@ -1,0 +1,101 @@
+#app-section{
+    background-color: #fffbf7;
+    padding-top: 30px;
+}
+
+#app-containar{
+    /* border: 2px solid black; */
+    height: 450px;
+    width: 950px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#mobile-image{
+    width: 50%;
+    height: 100%;
+    margin-right: 20px;
+}
+#mobile-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#app-info{
+    width: 50%;
+    margin-left: 20px;
+}
+
+#app-title h2{
+    font-size: 44px;
+    color: #1c1c1c;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#app-title p{
+    font-size: 16px;
+    color: #363636;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
+#option-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.option input{
+    font-size: 16px;
+    color: #1c1c1c;
+}
+
+input[type="radio"]{
+    accent-color: #EF4F5F;
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+}
+
+#email-input-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+#email-input-container input{
+    padding: 13px 12px;
+    border: 2px solid#cfcfcf;
+    outline: none;
+    border-radius: 6px;
+    width: 100%;
+}
+
+#email-input-container button{
+    min-width: 150px;
+    padding: 15px 0;
+    background-color: #EF4F5F;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    background-repeat: 6px;
+}
+
+#store p{
+    margin-bottom: 15PX;
+    font-size: 14PX;
+    color: #9c9c9c;
+}
+
+#store-logo{
+    display: flex;
+    gap: 20px;
+}
+
+#store-logo img{
+width: 137px;
+}
